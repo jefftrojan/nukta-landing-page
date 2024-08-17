@@ -27,7 +27,10 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .shadow-neon-blue {
+    box-shadow: 0 0 5px theme('colors.blue.400'), 0 0 20px theme('colors.blue.600');
+  }
+  .shadow-neon-blue-intense {
+    box-shadow: 0 0 10px theme('colors.blue.400'), 0 0 30px theme('colors.blue.600'), 0 0 50px theme('colors.blue.800');
   }
 }
